@@ -4,9 +4,9 @@ Microsoft SQL backup stored procedure using code from Original Expressmaint. Kee
 Use a scheduled task to execute the full and log backups at required time intervals.
 
 Full Backup
-sqlcmd.exe -i "<path to folder>\fullbackup.sql"
+sqlcmd.exe -i "[path to folder]\fullbackup.sql"
 
 Log Backup
-sqlcmd.exe -i "<path to folder>\logbackup.sql"
+sqlcmd.exe -i "[path to folder]\logbackup.sql"
 
 
